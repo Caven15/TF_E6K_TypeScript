@@ -1,0 +1,18 @@
+pour installler typescript => 
+
+Local : 
+    npm install --save-dev typescript ( a privilégier pour une importation dans un autre environement)
+Global : 
+    npm install -g typescript
+
+Initialiser la config du ts : 
+
+    tsc --init
+
+Pour transcomplier de ts en js : 
+
+    tsc
+
+pour lancer notre fichier app.js : 
+
+    node dist/app.js
