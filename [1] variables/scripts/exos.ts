@@ -95,7 +95,7 @@ console.log(`résultat de méthode add : ${add(1,2,3)}`);
 
 console.log("--- Exo 10 ---");
 function filterEvenNumbers(nombres : number[]) : number[]{
-    return nombres.filter(nombre => nombre % 2 != 0 )
+    return nombres.filter(nombre => nombre % 2 !== 0 )
 }
 let nombres : number[] = [1,2,3,4,5,6,7,8,9,10]
 let nombrePairs = filterEvenNumbers(nombres)
