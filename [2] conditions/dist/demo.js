@@ -25,6 +25,7 @@ let nomDuJour;
 switch (jour) {
     case 1:
         nomDuJour = "Lundi";
+        break;
     case 2:
         nomDuJour = "Mardi";
         break;
@@ -42,3 +43,10 @@ switch (jour) {
         break;
 }
 console.log(`Aujourd'hui nous sommes ${nomDuJour}`);
+console.log("--- Opérateurts logiques ---");
+if (hasId && est_Adulte) {
+    console.log("Vous êtes autorisé à entrer ");
+}
+else {
+    console.log("Vous n'êtes pas autorisé à entrer ");
+}
