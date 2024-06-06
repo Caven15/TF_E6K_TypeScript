@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start-demo" : "tsc && node dist/demo.js",
+    "start-exos" : "tsc && node dist/exos.js",
+    "start-pokemon-demo" : "tsc && node dist/demoPokeApi.js",
+    "start-pokemon-exo" : "tsc && node dist/exo.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
