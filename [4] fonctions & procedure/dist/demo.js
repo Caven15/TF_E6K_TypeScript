@@ -37,6 +37,12 @@ const soustraction = (nombre1, nombre2) => {
     return nombre1 - nombre2;
 };
 soustraction(20, 15);
+// function id(parametre : string): string{
+//     return parametre
+// }
+// function id(parametre : number): number{
+//     return parametre
+// }
 // Fonction générique
 function id(parametre) {
     return parametre;
